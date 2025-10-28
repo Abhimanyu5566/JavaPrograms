@@ -30,7 +30,7 @@ public class Palindrom {
 
         System.out.printf("Reverse String: %s\n",reverse);
 
-        return (str.equalsIgnoreCase(str))?true:false;
+        return (str.equalsIgnoreCase(reverse))?true:false;
 
     }
 
