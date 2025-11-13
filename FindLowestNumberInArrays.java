@@ -11,12 +11,9 @@ public class FindLowestNumberInArrays{
 
         for(int i = 0; i< arr.length;i++){
 
-             System.out.println(lowestValue);
             if(lowestValue > arr[i]){
 
                 lowestValue = arr[i];
-
-                System.out.println("Check "+lowestValue);
 
             }
         }
